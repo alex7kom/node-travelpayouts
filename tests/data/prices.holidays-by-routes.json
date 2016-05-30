@@ -1,0 +1,29 @@
+{
+   "success":true,
+   "data":{
+      "title":"Авиабилеты на день России",
+      "dates":{
+         "from":"2016-06-09",
+         "to":"2016-06-15"
+      },
+      "origins":[
+         {
+            "iata":"MOW",
+            "prices":[
+               {
+                  "destination":"SIP",
+                  "depart_date":"2016-06-07",
+                  "return_date":"2016-06-11",
+                  "price":7049
+               },
+               {
+                  "destination":"NYC",
+                  "depart_date":"2016-06-07",
+                  "return_date":"2016-06-08",
+                  "price":30279
+               }
+            ]
+         }
+      ]
+   }
+}

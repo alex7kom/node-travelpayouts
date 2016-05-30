@@ -1,0 +1,32 @@
+{
+    "success":true,
+    "data":{
+        "sales":[
+        {
+            "key":"2015-05-14",
+            "flights":{
+                "visitors":1,
+                "searches":17,
+                "clicks":0,
+                "paid_clicks":0,
+                "paid_clicks_profit":0,
+                "bookings":0,
+                "paid_bookings":0,
+                "paid_bookings_profit":0,
+                "pending_bookings_profit":0
+             },
+             "hotels":{
+                "visitors":0,
+                "searches":0,
+                "clicks":0,
+                "paid_clicks":0,
+                "paid_clicks_profit":0,
+                "bookings":0,
+                "paid_bookings":0,
+                "paid_bookings_profit":0,
+                "pending_bookings_profit":0
+             }
+        }
+    ]
+    }
+}

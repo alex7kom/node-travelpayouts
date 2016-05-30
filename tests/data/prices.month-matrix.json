@@ -1,0 +1,16 @@
+{
+   "success":true,
+   "data":[{
+      "show_to_affiliates":true,
+      "trip_class":0,
+      "origin":"LED",
+      "destination":"HKT",
+      "depart_date":"2015-10-01",
+      "return_date":"",
+      "number_of_changes":1,
+      "value":29127,
+      "found_at":"2015-09-24T00:06:12+04:00",
+      "distance":8015,
+      "actual":true
+   }]
+}

@@ -1,0 +1,16 @@
+{
+   "success":true,
+   "data":[{
+      "show_to_affiliates":true,
+      "trip_class":0,
+      "origin":"WMI",
+      "destination":"WRO",
+      "depart_date":"2015-12-07",
+      "return_date":"2015-12-13",
+      "number_of_changes":0,
+      "value":1183,
+      "found_at":"2015-09-22T14:08:45+04:00",
+      "distance":298,
+      "actual":true
+   }]
+}

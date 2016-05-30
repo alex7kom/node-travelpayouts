@@ -1,0 +1,26 @@
+{
+   "success":true,
+   "data":{
+      "origins":[
+         "LED",
+         "MIK"
+      ],
+      "destinations":[
+         "HKT",
+         "NST"
+      ],
+      "prices":[{
+         "show_to_affiliates":true,
+         "trip_class":0,
+         "origin":"LED",
+         "destination":"HKT",
+         "depart_date":"2015-10-08",
+         "return_date":"2015-10-22",
+         "number_of_changes":1,
+         "value":41678,
+       "found_at":"2015-09-23T11:24:02+04:00",
+         "distance":8015,
+         "actual":true
+      }]
+   }
+}

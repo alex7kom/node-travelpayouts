@@ -1,0 +1,32 @@
+{
+  "name": "travelpayouts",
+  "version": "0.0.1",
+  "description": "Travelpayouts (Aviasales) API Wrapper",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --reporter=spec tests/test.lib.js",
+    "lint": "eslint './**/*.js'"
+  },
+  "keywords": [
+    "travelpayouts",
+    "aviasales",
+    "API"
+  ],
+  "author": "Alexey Komarov <alex7kom@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alex7Kom/node-travelpayouts.git"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "minimist": "^1.2.0",
+    "mocha": "^2.5.3",
+    "nock": "^8.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "request": "^2.72.0",
+    "xml2js": "^0.4.16"
+  }
+}

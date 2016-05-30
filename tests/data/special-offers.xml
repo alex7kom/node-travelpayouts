@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<offers>
+  <offer airline="S7 (Сибирь)" airline_code="S7" title="В Екатеринбург от 3100 рублей! Специальное предложение от авиакомпании S7" id="21319" href="https://www.aviasales.ru/offers/v-ekaterinburg-ot-3100-rublei-spetsialnoe-predlozhenie-ot-aviakompanii-s7-5bd4c09f-3c91-4d74-bcb3-361bc7125cee" sale_date_begin="1464307200" sale_date_end="1464825600" flight_date_begin="1464307200" flight_date_end="1472601600" link="https://hydra.aviasales.ru/adaptors/special_offer?iata=S7&amp;utm_source=www&amp;locale=ru&amp;url=http%3A%2F%2Fwww.s7.ru%2Fhome%2Foffers%2Fluchshie-predlozheniya-nedeli">
+    <description/>
+    <conditions>&lt;ul&gt;&lt;li&gt;Цены на авиабилеты указаны с учетом топливных, аэропортовых и государственных сборов.&lt;/li&gt;&lt;li&gt;Количество авиабилетов на каждом рейсе по данному тарифу ограничено.&lt;/li&gt;&lt;li&gt;Полные условия продажи авиабилетов на сайте авиакомпании.&lt;/li&gt;&lt;/ul&gt;</conditions>
+    <route from_iata="MOW" to_iata="SVX" from_name="Москва" to_name="Екатеринбург" class="эконом" oneway_price="от 3100 рублей" roundtrip_price=""/>
+  </offer>
+</offers>

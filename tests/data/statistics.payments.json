@@ -1,0 +1,14 @@
+{
+    "success":true,
+    "data":{
+        "payments":[
+            {
+                "timestamp":"2015-05-11 05:47:18",
+                "status":"paid",
+                "currency":"rub",
+                "amount":3399.07,
+                "comment":"Travelpayouts"
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "success":true,
+  "data":{
+    "AER":{
+      "origin":"MOW",
+      "destination":"AER",
+      "price":3673,
+      "transfers":0,
+      "airline":"WZ",
+      "flight_number":125,
+      "departure_at":"2016-03-08T16:35:00Z",
+      "return_at":"2016-03-17T16:05:00Z",
+      "expires_at":"2016-02-22T09:32:44Z"
+    }
+  },
+  "error":null,
+  "currency":"rub"
+}
