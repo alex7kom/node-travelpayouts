@@ -1,5 +1,8 @@
 # Travelpayouts (Aviasales) API for Node.js
 
+[![Build Status](https://travis-ci.org/Alex7Kom/node-travelpayouts.svg?branch=master)](https://travis-ci.org/Alex7Kom/node-travelpayouts)
+[![David](https://david-dm.org/Alex7Kom/node-travelpayouts.svg)](https://david-dm.org/Alex7Kom/node-travelpayouts)
+
 [На русском](README.md)
 
 A (minimalistic) wrapper for Travelpayouts (Aviasales) API which allows to access various cache data from flight searches. Data Access API and API of affiliate statistics are supported.

@@ -1,5 +1,8 @@
 # Travelpayouts (Aviasales) API для Node.js
 
+[![Build Status](https://travis-ci.org/Alex7Kom/node-travelpayouts.svg?branch=master)](https://travis-ci.org/Alex7Kom/node-travelpayouts)
+[![David](https://david-dm.org/Alex7Kom/node-travelpayouts.svg)](https://david-dm.org/Alex7Kom/node-travelpayouts)
+
 [In English](README-en.md)
 
 (Минималистичная) обертка для API Travelpayouts (Aviasales), которое в том числе позволяет получать разнообразные данные из кэша поиска авиабилетов. В данный момент поддерживаются API доступа к данным и API экспорта партнерской статистики.
