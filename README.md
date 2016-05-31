@@ -9,6 +9,8 @@
 
 > Обратите внимание, все данные передаются из кэша, поэтому их следует использовать для формирования статичных страниц, на которых актуальность информации не критична.
 
+**См. также:** модуль для работы с файлами данных Travelpayouts — [travelpayouts-data](https://github.com/Alex7Kom/node-travelpayouts-data).
+
 # Установка
 
 ```
@@ -17,7 +19,7 @@ npm i travelpayouts
 
 # Использование
 
-1. Зарегистрируйтесь на [Travelpayouts](https://www.travelpayouts.com/?marker=99684&locale=ru)
+1. Зарегистрируйтесь на [Travelpayouts](https://www.travelpayouts.com/?marker=99684&locale=ru).
 2. В разделе [Разработчикам → API](https://www.travelpayouts.com/developers/api) получите API токен.
 3. В своем коде подключите библиотеку и передайте ей токен следующим образом:
 

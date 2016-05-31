@@ -9,6 +9,8 @@ A (minimalistic) wrapper for Travelpayouts (Aviasales) API which allows to acces
 
 > Attention, the data is transferred from the cache, so it is recommended to use them to generate static pages.
 
+**See also**: a module for working with Travelpayouts data files: [travelpayouts-data](https://github.com/Alex7Kom/node-travelpayouts-data).
+
 # Install
 
 ```
@@ -17,7 +19,7 @@ npm i travelpayouts
 
 # Use
 
-1. Sign up for [Travelpayouts](https://www.travelpayouts.com/?marker=99684&locale=en)
+1. Sign up for [Travelpayouts](https://www.travelpayouts.com/?marker=99684&locale=en).
 2. Obtain an API token in the section [Developers → API](https://www.travelpayouts.com/developers/api).
 3. Include the library in your code and pass the token:
 
