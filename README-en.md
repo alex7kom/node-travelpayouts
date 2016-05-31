@@ -26,7 +26,7 @@ var travelpayoutsAPI = require('travelpayouts');
 var tapi = travelpayoutsAPI({ token: 'your_token' });
 ```
 
-4. You can now use API methods.
+You can now use API methods.
 
 # API
 
@@ -43,6 +43,7 @@ Returns API object, accepts the following params:
 All methods accept an object with params as the first argument. All methods accept callback, that will be called with results of request. The first argument to callback will be an error or `null` if no errors occured.
 
 For each method listed below there is a link to the relevant section of the official documentation.
+
 **Please note**, that API token always passed to the API automatically, and you don't have to specify it for each request manually.
 
 ## Prices
