@@ -5,9 +5,15 @@
 
 [На русском](README.md)
 
-A (minimalistic) wrapper for Travelpayouts (JetRadar/Aviasales) API which allows to access various cache data from flight searches. Data Access API and API of affiliate statistics are supported.
+A (minimalistic) wrapper for Travelpayouts (JetRadar/Aviasales).
 
-> Attention, the data is transferred from the cache, so it is recommended to use them to generate static pages.
+The following APIs are supported.
+
+* Data Access API
+
+* Flight Search API
+
+* Affiliate Statistics API
 
 **See also**: a module for working with Travelpayouts data files: [travelpayouts-data](https://github.com/Alex7Kom/node-travelpayouts-data).
 
@@ -38,6 +44,10 @@ Returns API object, accepts the following params:
 
 * `token` — an API token. Required if you are going to use restricted APIs.
 
+* `marker` — your unique affiliate identifier. Required for Flight Search API.
+
+* `host` — your website host or app name. Required for Flight Search API.
+
 * `requestOptions` — [request](https://github.com/request/request) options, which will be used by default. Use it to specify a proxy, timeout, etc.
 
 ## All methods
@@ -46,9 +56,13 @@ All methods accept an object with params as the first argument. All methods acce
 
 For each method listed below there is a link to the relevant section of the official documentation.
 
-**Please note**, that API token always passed to the API automatically, and you don't have to specify it for each request manually.
+**Please note**, that API token, marker, and host always passed to the API automatically, and you don't have to specify it for each request manually.
 
 ## Prices
+
+Allows to access various cache data from flight searches.
+
+> Attention, the data is transferred from the cache, so it is recommended to use it to generate static pages.
 
 ### prices.latest(options, callback)
 
@@ -95,6 +109,24 @@ For each method listed below there is a link to the relevant section of the offi
 [Special offers](http://api.travelpayouts.com/#v2_prices_special-offers_endpoint)
 
 The API returns an XML, however the module returns a ready to use JS object.
+
+## Flight Search
+
+[Requirements for API access](https://support.travelpayouts.com/hc/en-us/articles/210995808-Requirements-for-API-access)
+
+**Please note**, that md5 signature is generated automatically by this module, so you don't need to do it in your code.
+
+### flight.search(params, callback)
+
+[Request initialization](https://support.travelpayouts.com/hc/en-us/articles/203956173-Flights-search-API-Real-time-and-multi-city-search#u2)
+
+### flight.results(params, callback)
+
+[Getting search results](https://support.travelpayouts.com/hc/en-us/articles/203956173-Flights-search-API-Real-time-and-multi-city-search#u2)
+
+### flight.click(params, callback)
+
+[Getting a link to the agency website](https://support.travelpayouts.com/hc/en-us/articles/203956173-Flights-search-API-Real-time-and-multi-city-search#05)
 
 ## Affiliate statistics
 

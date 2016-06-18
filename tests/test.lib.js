@@ -5,7 +5,11 @@ var path = require('path');
 
 var nock = require('nock');
 
+global.marker = 11111;
 global.token = 'test';
+global.host = 'localhost';
+
+// Data API Mocks
 
 var reqheaders = {
   reqheaders: {
@@ -169,4 +173,24 @@ nock('http://yasen.aviasales.ru')
   .get(currency)
   .replyWithFile(200, path.join(__dirname, 'data/currency.json'));
 
+// Flight Search API Mocks
+
+nock('http://api.travelpayouts.com')
+  .post('/v1/flight_search', function (body) {
+    return body.signature === 'b55e0e088ccf0eaa78400b5540156885';
+  })
+  .replyWithFile(200, path.join(__dirname, 'data/flight.search.json'));
+
+var flightResults = '/v1/flight_search_results?uuid=c9c6de8c-3fb4-404e-b88c-e9e0a605f183';
+nock('http://api.travelpayouts.com')
+  .get(flightResults)
+  .replyWithFile(200, path.join(__dirname, 'data/flight.results.json'));
+
+var flightClick = '/v1/flight_searches/c9c6de8c-3fb4-404e-b88c-e9e0a605f183/clicks/2000001.json';
+nock('http://api.travelpayouts.com')
+  .get(flightClick)
+  .replyWithFile(200, path.join(__dirname, 'data/flight.click.json'));
+
+require('./test.signature.js');
 require('./test.api.js');
+require('./test.flight.js');
