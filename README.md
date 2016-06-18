@@ -17,6 +17,52 @@
 
 **См. также:** модуль для работы с файлами данных Travelpayouts — [travelpayouts-data](https://github.com/Alex7Kom/node-travelpayouts-data).
 
+**Содержание**
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Установка](#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0)
+- [Использование](#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+- [API](#api)
+  - [travelpayoutsAPI([options])](#travelpayoutsapioptions)
+  - [Все методы](#%D0%B2%D1%81%D0%B5-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B)
+  - [Цены](#%D1%86%D0%B5%D0%BD%D1%8B)
+    - [prices.latest(options, callback)](#priceslatestoptions-callback)
+    - [prices.monthMatrix(options, callback)](#pricesmonthmatrixoptions-callback)
+    - [prices.weekMatrix(options, callback)](#pricesweekmatrixoptions-callback)
+    - [prices.nearestPlacesMatrix(options, callback)](#pricesnearestplacesmatrixoptions-callback)
+    - [prices.cheap(options, callback)](#pricescheapoptions-callback)
+    - [prices.monthly(options, callback)](#pricesmonthlyoptions-callback)
+    - [prices.direct(options, callback)](#pricesdirectoptions-callback)
+    - [prices.calendar(options, callback)](#pricescalendaroptions-callback)
+    - [prices.holidaysByRoutes(options, callback)](#pricesholidaysbyroutesoptions-callback)
+    - [minPricesCalendar(options, callback)](#minpricescalendaroptions-callback)
+    - [specialOffers(callback)](#specialofferscallback)
+  - [Поиск авиабилетов](#%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D0%B0%D0%B2%D0%B8%D0%B0%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D0%BE%D0%B2)
+    - [flight.search(params, callback)](#flightsearchparams-callback)
+    - [flight.results(params, callback)](#flightresultsparams-callback)
+    - [flight.click(params, callback)](#flightclickparams-callback)
+  - [Партнерская статистика](#%D0%BF%D0%B0%D1%80%D1%82%D0%BD%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F-%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0)
+    - [statistics.balance(callback)](#statisticsbalancecallback)
+    - [statistics.payments(callback)](#statisticspaymentscallback)
+    - [statistics.sales(options, callback)](#statisticssalesoptions-callback)
+    - [statistics.detailedSales(options, callback)](#statisticsdetailedsalesoptions-callback)
+  - [Карта цен](#%D0%BA%D0%B0%D1%80%D1%82%D0%B0-%D1%86%D0%B5%D0%BD)
+    - [map.directions(options, callback)](#mapdirectionsoptions-callback)
+    - [map.prices(options, callback)](#mappricesoptions-callback)
+  - [Направления](#%D0%BD%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F)
+    - [directions.airline(options, callback)](#directionsairlineoptions-callback)
+    - [directions.city(options, callback)](#directionscityoptions-callback)
+  - [Разное](#%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D0%B5)
+    - [whereami(options, callback)](#whereamioptions-callback)
+    - [currency(callback)](#currencycallback)
+- [Пример](#%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80)
+- [Тесты](#%D1%82%D0%B5%D1%81%D1%82%D1%8B)
+- [Лицензия](#%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Установка
 
 ```

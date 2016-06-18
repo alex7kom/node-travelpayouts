@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha --reporter=spec tests/test.lib.js",
-    "lint": "eslint './**/*.js'"
+    "lint": "eslint './**/*.js'",
+    "toc": "doctoc README.md README-en.md --github --notitle"
   },
   "keywords": [
     "travelpayouts",

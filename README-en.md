@@ -17,6 +17,52 @@ The following APIs are supported.
 
 **See also**: a module for working with Travelpayouts data files: [travelpayouts-data](https://github.com/Alex7Kom/node-travelpayouts-data).
 
+**Table of Contents**
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Install](#install)
+- [Use](#use)
+- [API](#api)
+  - [travelpayoutsAPI([options])](#travelpayoutsapioptions)
+  - [All methods](#all-methods)
+  - [Prices](#prices)
+    - [prices.latest(options, callback)](#priceslatestoptions-callback)
+    - [prices.monthMatrix(options, callback)](#pricesmonthmatrixoptions-callback)
+    - [prices.weekMatrix(options, callback)](#pricesweekmatrixoptions-callback)
+    - [prices.nearestPlacesMatrix(options, callback)](#pricesnearestplacesmatrixoptions-callback)
+    - [prices.cheap(options, callback)](#pricescheapoptions-callback)
+    - [prices.monthly(options, callback)](#pricesmonthlyoptions-callback)
+    - [prices.direct(options, callback)](#pricesdirectoptions-callback)
+    - [prices.calendar(options, callback)](#pricescalendaroptions-callback)
+    - [prices.holidaysByRoutes(options, callback)](#pricesholidaysbyroutesoptions-callback)
+    - [minPricesCalendar(options, callback)](#minpricescalendaroptions-callback)
+    - [specialOffers(callback)](#specialofferscallback)
+  - [Flight Search](#flight-search)
+    - [flight.search(params, callback)](#flightsearchparams-callback)
+    - [flight.results(params, callback)](#flightresultsparams-callback)
+    - [flight.click(params, callback)](#flightclickparams-callback)
+  - [Affiliate statistics](#affiliate-statistics)
+    - [statistics.balance(callback)](#statisticsbalancecallback)
+    - [statistics.payments(callback)](#statisticspaymentscallback)
+    - [statistics.sales(options, callback)](#statisticssalesoptions-callback)
+    - [statistics.detailedSales(options, callback)](#statisticsdetailedsalesoptions-callback)
+  - [Price map](#price-map)
+    - [map.directions(options, callback)](#mapdirectionsoptions-callback)
+    - [map.prices(options, callback)](#mappricesoptions-callback)
+  - [Directions](#directions)
+    - [directions.airline(options, callback)](#directionsairlineoptions-callback)
+    - [directions.city(options, callback)](#directionscityoptions-callback)
+  - [Misc](#misc)
+    - [whereami(options, callback)](#whereamioptions-callback)
+    - [currency(callback)](#currencycallback)
+- [Example](#example)
+- [Tests](#tests)
+- [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Install
 
 ```
