@@ -1,6 +1,6 @@
 {
   "name": "travelpayouts",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Travelpayouts (JetRadar/Aviasales) API Wrapper",
   "main": "lib/index.js",
   "scripts": {
