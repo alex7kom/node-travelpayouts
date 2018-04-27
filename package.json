@@ -21,14 +21,14 @@
     "url": "https://github.com/Alex7Kom/node-travelpayouts.git"
   },
   "devDependencies": {
-    "chai": "^4.0.2",
+    "chai": "^4.1.2",
     "minimist": "^1.2.0",
-    "mocha": "^3.4.2",
-    "nock": "^9.0.13"
+    "mocha": "^5.1.1",
+    "nock": "^9.2.5"
   },
   "dependencies": {
-    "lodash": "^4.17.4",
-    "request": "^2.81.0",
-    "xml2js": "^0.4.17"
+    "lodash": "^4.17.10",
+    "request": "^2.85.0",
+    "xml2js": "^0.4.19"
   }
 }
